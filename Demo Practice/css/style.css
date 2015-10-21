@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 25, 2015, 10:24:35 PM
+    Author     : Reboot_Gazi
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{font-family: Arial;font-size: 14px;font-weight: normal;line-height: 18px;color: #000;background: #f1f1f1;}
+a:hover{text-decoration: none;}
+a{text-decoration: none;color: #000;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;margin-bottom:15px;margin-top: 2px;}
+img {border:none;max-width:100%;height: auto;}
+ul, ol {margin:15px;margin-right:0}
+.floatleft{float: left;}
+.floatright{float: right;}
+.fix{overflow: hidden;}
+
+.header_top{}
+.header_top ul{margin: 0;padding: 0;list-style: none;}
+.header_top ul li{float: left;border-right: 1px solid #ccc;}
+.header_top ul li a{color: #545454;display: block;padding: 7px 15px;font-size: 12px;}
+.header_top ul li a:hover{}
+.red-button{background: rgba(0, 0, 0, 0) url("../images/live_chat.png") repeat-x scroll 0 0;border-radius: 5px;color: #fff;display: block;float: right;font-weight: bold;padding: 3px 10px;margin-top: 3px;}
+.red-button:hover{background: #9F000E;}
+.structure{width: 960px;margin: 0 auto;display: block;}
+.main_area{background: #ffffff none repeat scroll 0 0;border-radius: 10px 10px 0 0;box-shadow: 0 5px 14px #666;}
+.header{background: url(../images/header_bg.png) repeat-x;min-height: 100px;}
+.logo{margin-left: 15px;margin-top: 12px;}
+.newsletter_icon{background: rgba(0, 0, 0, 0) url("../images/icon-newsletter.gif") no-repeat scroll 0 2px;float: left;margin-right: 25px;padding-left: 35px;}
+.newsletter_icon a{color: #fff;text-decoration: underline;}
+.call_icon{background: rgba(0, 0, 0, 0) url("../images/icon-tel.gif") no-repeat scroll 0 1px;float: left;padding-left: 25px;color: #fff;font-weight: bold;}
+.call_icon a{}
+.header_right{margin-right: 38px;margin-top: 17px;}
+
+.mainmenu{background: rgba(0, 0, 0, 0) url("../images/menubar_bg.PNG") repeat-x scroll 0 0;margin-top: -3px;min-height: 39px;}
+.mainmenu ul{margin: 0;padding: 0;list-style: none;}
+.mainmenu ul li{float: left;border-left: 1px solid #fff;border-right: 1px solid #fff;position: relative;}
+.mainmenu ul li:first-child{border-left: 0px solid;}
+.mainmenu ul li:last-child{border-right: 0px solid;}
+.mainmenu ul li a{display: block;padding: 10px;color: #fff;font-size: 13px;font-weight: bold;}
+.mainmenu ul li a:hover{background: #B0171A;}
+
+/*Dropdown list*/
+.mainmenu ul li ul{position: absolute;left: -999999px; }
+.mainmenu ul li:hover ul{left: 0px;}
+.mainmenu ul li ul{background:#525252;}
+.mainmenu ul li ul li{float: none;width: 150px;border-bottom: 1px solid #E2E2E2;border-left: 0px solid #E2E2E2; border-right: 0px solid #E2E2E2;}
+.mainmenu ul li ul li:last-child{border-bottom: 0px solid #E2E2E2;}
+.mainmenu ul li ul li a{background: #525252;color: #fff;padding: 5px 15px;}
+.mainmenu ul li ul li a:hover{background: #B0171A;}
+
+.promotion{background: #E6E6E6;padding: 0px 15px;font-weight: bold;font-size: 12px;margin-bottom: 15px;}
+.left_promo{float: left;}
+.right_promo{float: right;}
+.sidebar{margin-left: 20px;margin-right: 20px;width: 180px;}
+.sidebar ul{margin: 0;padding: 0;list-style: none;}
+.sidebar ul li{background: #2d2d2d none repeat scroll 0 0;padding: 5px;border-bottom: 7px solid #fff;}
+.sidebar ul li a{color: #fff;}
+.sidebar ul li a:hover{color: #EB4971;}
+.content{margin-right: 20px;width: 720px;}
+.content p, .sidebar p{margin-bottom: 15px;}
+.footer_top{border-top: 1px solid #ddd;margin-top: 40px;margin-left: 20px;margin-right: 20px;padding-top: 25px;}
+.footer_top_left{}
+.footer_top_left ul{margin: 0;padding: 0;list-style: none;width: 150px;float: left;}
+.footer_top_left ul li{padding:  0px;}
+.footer_top_left ul li a{color: #A0A0A0;}
+.footer_top_left ul li a:hover{color: #D61B71;}
+.footer_top_right{}
+.f_top_right_top{margin-right: 25px;width: 250px;}
+.f_top_right_top p{color: #a0a0a0;float: left;font-size: 12px;margin-right: 15px;}
+.f_top_right_bottom{margin-top: 25px;}
+.f_top_right_bottom p{float: left;margin-right: 15px;}
+.f_top_right_bottom a{background: url(../images/small-icon-twitter.gif) no-repeat scroll 0 1px ;padding-left: 20px;color: #A0A0A0;display: inline-block;}
+.footer_call_us{font-size: 15px;margin-left: 15px;}
+.footer_bottom{background: #c11b1b;color: #fff;margin-top: 25px;padding: 20px;font-size: 12px;}
+div#sticker {
+	width: 960px;
+}
+.stick {
+	position:fixed;
+	top:0px;
+        z-index:999999;
+}
